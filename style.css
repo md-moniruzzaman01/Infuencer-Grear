@@ -136,12 +136,15 @@ body{
      display: flex;
      justify-content: center;
      align-items: center;
+     transition-duration: 2s;
  }
  .image-area img{
      width: 95%;
      height: 95%;
  }
-
+ .image-area:hover{
+     transform: scale(1.1);
+ }
  /* ////////////////////company icon section///////////////////// */
  .icon-section{
     max-width: 1000px;
